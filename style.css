@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
-:root {
+:root{
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
+
 }
 
-body {
+body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
 
-
-.conteudo-principal {
+.conteudo-principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,19 +26,18 @@ body {
     margin: 0 auto;
 }
 
-.titulo-principal {
+.titulo-pricipal{
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
 
-.titulo-principal span {
+.titulo-pricipal span{
     color: var(--verde);
 }
 
-
-.botao {
-    font-family: 'Chakra Petch', sans-serif;
+.botao{
+    font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -53,11 +52,11 @@ body {
     border-top: none;
 }
 
-.botao:first-child {
+.botao:first-child{
     border-radius: 40px 40px 0 0;
 }
 
-.botoes {
+.botoes{
     display: block;
 }
 
@@ -83,14 +82,14 @@ body {
     font-size: 28px;
     text-align: center;
 }
+
 .aba-conteudo-titulo-secundario{
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
 }
-
 .contador{
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -103,7 +102,6 @@ body {
 .contador-digito-numero{
     font-size: 80px;
     margin: 0;
-
 }
 
 .contador-digito-texto{
@@ -114,15 +112,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .botoes {
+    .botoes{
         display: flex;
     }
-
-    .botao:first-child {
+    .botao:first-child{
         border-radius: 40px 0 0 0;
     }
-
-    .botao:last-child {
+    .botao:last-child{
         border-radius: 0 40px 0 0;
     }
+
 }
